@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Buonomo</title>
+    <meta name="author" content="Mike Buonomo">
+    <meta name="description" content="Welcome to Buonomo. Home of Buonomo. Can I take your order?">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        background-color: #222;
+        color: #fff;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .center-box {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      h1 {
+        font-weight: bold;
+        margin-top: 0;
+        font-size: 5em;
+      }
+      a {
+        font-size: 1.2em;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      a:hover {
+        color: #555;
+      }
+      ul {
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul > li {
+        margin: 0;
+        padding: 0;
+        display: inline;
+      }
+      ul > li:not(:last-child)::after {
+        content: '|';
+        margin: 0 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center-box">
+      <h1>Buonomo</h1>
+      <ul>
+        <li><a href="https://mike.buonomo.net">Mike</a></li>
+        <li><a href="https://brick-breaker.buonomo.net">Brick Breaker</a></li>
+        <li><a href="https://pong.buonomo.net">Pong</a></li>
+        <li><a href="https://github.com/mrb2590">Github</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
