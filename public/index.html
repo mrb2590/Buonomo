@@ -19,6 +19,10 @@
         margin: 0;
         padding: 0;
       }
+      body {
+        opacity: 0;
+        transition: opacity 3s;
+      }
       .center-box {
         text-align: center;
         width: 100%;
@@ -69,5 +73,10 @@
         <li><a href="https://github.com/mrb2590">Github</a></li>
       </ul>
     </div>
+    <script>
+      window.addEventListener('load', (event) => {
+        document.getElementsByTagName('body')[0].style = 'opacity: 1;';
+      });
+    </script>
   </body>
 </html>
